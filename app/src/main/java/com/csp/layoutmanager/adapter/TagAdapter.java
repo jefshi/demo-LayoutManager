@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.csp.adapter.recyclerview.SingleAdapter;
 import com.csp.adapter.recyclerview.ViewHolder;
+import com.csp.layoutmanager.util.LogCat;
 import com.csp.layoutmanager.R;
 
 import java.util.ArrayList;
@@ -14,6 +15,13 @@ public class TagAdapter extends SingleAdapter<String> {
 
     public TagAdapter(Context context) {
         super(context, R.layout.item_tag);
+    }
+
+    @Override
+    protected void onCreateViewHolder(ViewHolder holder) {
+        super.onCreateViewHolder(holder);
+
+        LogCat.w(holder);
     }
 
     @Override
@@ -44,6 +52,7 @@ public class TagAdapter extends SingleAdapter<String> {
         list.add("女性向");
         list.add("消除");
         list.add("音乐节奏");
+        list.add("育成");
         list.add("育成");
         adapter.addData(list, false);
         adapter.notifyDataSetChanged();

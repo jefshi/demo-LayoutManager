@@ -19,6 +19,7 @@
 
         <activity android:name=".activity.RecyclerOneActivity" />
         <activity android:name=".activity.RecyclerTwoActivity" />
+        <activity android:name=".activity.Recycler03Activity" />
     </application>
 
 </manifest>

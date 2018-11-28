@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <Button
-        android:id="@+id/btn_one"
+        android:id="@+id/btn_ST01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="One" />
+        android:text="步骤一" />
 
     <Button
-        android:id="@+id/btn_two"
+        android:id="@+id/btn_ST02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Two" />
+        android:text="步骤二" />
 
+
+    <Button
+        android:id="@+id/btn_ST03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="步骤三" />
 
 </LinearLayout>
