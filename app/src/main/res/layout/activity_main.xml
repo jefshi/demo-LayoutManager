@@ -8,19 +8,25 @@
         android:id="@+id/btn_ST01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="步骤一" />
+        android:text="步骤一：onLayoutChildren()" />
 
     <Button
         android:id="@+id/btn_ST02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="步骤二" />
+        android:text="步骤二：添加滑动" />
 
 
     <Button
         android:id="@+id/btn_ST03"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="步骤三" />
+        android:text="步骤三：回收子View（onCreateViewHolder变多）" />
+
+    <Button
+        android:id="@+id/btn_ST04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="步骤四：？？？" />
 
 </LinearLayout>

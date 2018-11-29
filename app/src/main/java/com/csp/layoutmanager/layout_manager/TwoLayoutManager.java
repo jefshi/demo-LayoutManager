@@ -69,9 +69,10 @@ public class TwoLayoutManager extends RecyclerView.LayoutManager {
         //将竖直方向的偏移量+travel
         verticalScrollOffset += travel;
 
-        LogCat.d("travel = " + travel + ", dy = " + dy + ", verticalScrollOffset = " + verticalScrollOffset + ", totalHeight = " + totalHeight+ ", getVerticalSpace() = " + getVerticalSpace());
         // 平移容器内的item
         offsetChildrenVertical(-travel);
+
+        LogCat.d("travel = " + travel + ", dy = " + dy + ", verticalScrollOffset = " + verticalScrollOffset + ", totalHeight = " + totalHeight + ", getVerticalSpace() = " + getVerticalSpace() + ", getChildCount() = " + getChildCount());
         return travel;
     }
 

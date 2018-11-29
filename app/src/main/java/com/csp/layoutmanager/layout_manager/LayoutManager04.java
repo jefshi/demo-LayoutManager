@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.csp.layoutmanager.util.LogCat;
 
-public class LayoutManager03 extends RecyclerView.LayoutManager {
+public class LayoutManager04 extends RecyclerView.LayoutManager {
     private int verticalScrollOffset = 0; // 垂直方向上的累积滑动偏移
     private int totalHeight = 0;
 

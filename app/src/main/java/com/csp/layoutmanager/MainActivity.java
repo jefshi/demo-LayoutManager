@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.csp.layoutmanager.activity.Recycler03Activity;
+import com.csp.layoutmanager.activity.Recycler04Activity;
 import com.csp.layoutmanager.activity.RecyclerOneActivity;
 import com.csp.layoutmanager.activity.RecyclerTwoActivity;
 
@@ -22,8 +23,11 @@ public class MainActivity extends AppCompatActivity {
         // 添加滑动
         findViewById(R.id.btn_ST02).setOnClickListener(v -> startActivity(RecyclerTwoActivity.class));
 
-        // ???
+        // 回收子View（onCreateViewHolder变多）
         findViewById(R.id.btn_ST03).setOnClickListener(v -> startActivity(Recycler03Activity.class));
+
+        // ???
+        findViewById(R.id.btn_ST04).setOnClickListener(v -> startActivity(Recycler04Activity.class));
     }
 
     private void startActivity(Class<? extends Activity> cls) {
